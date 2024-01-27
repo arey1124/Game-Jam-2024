@@ -15,7 +15,6 @@ public class CubeMovement : MonoBehaviour
         // Move the cube along the X-axis
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
-        // Check if the respawn key is pressed (e.g., R key)
         // Check if the object has reached the specified Y-coordinate
         if (respawnTrigger.position.y <= respawnYCoordinate)
         {
